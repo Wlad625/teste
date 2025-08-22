@@ -1,0 +1,21 @@
+h1 {
+    color:hsl(0, 96%, 51%);
+    font-weight:bold;
+    text-decoration: underline;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: black;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.texto-Azul{
+    color:blue;
+}
+
+#Olá {
+    
+}
