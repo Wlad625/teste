@@ -74,4 +74,9 @@ h1 {
   clip-path: polygon(0 0,var(--s) 0,calc(var(--s) + var(--d)) var(--d),calc(100% - var(--s) - var(--d)) var(--d),calc(100% - var(--s)) 0,100% 0,calc(100% - var(--c)) calc(50% - var(--d)/2),100% calc(100% - var(--d)),calc(100% - var(--s)) calc(100% - var(--d)),calc(100% - var(--s) - var(--d)) 100%,calc(var(--s) + var(--d)) 100%,var(--s) calc(100% - var(--d)),0 calc(100% - var(--d)),var(--c) calc(50% - var(--d)/2));
   background-color: #d81a14; /* the main color */
   width: fit-content;
+};
+const aluno = {
+  nome: "Wlad",
+  nota: 9.5,
+  
 }

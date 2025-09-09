@@ -51,3 +51,4 @@ arr.forEach(el=>{
     const resul = calcularidade2(el);
     console.log(resul);
 });
+
