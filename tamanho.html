@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<head> Bem vinda Nação</head>
+<script>
+     alert(Bem vindo); 
+</script>
+<body>
+    <script>
+        alert(`${window.screen.height}, ${window.screen.width}`);
+    </script>
+</body>
+<h1 id="titulo">Bem vindo ao blog do Wlad</h1>
+<h3 class="subtitulo"> Esse é o blog do Flamengo</h3>
+<h4 class="subtitulo"> O melhor time do Brasil</h4>
+<button id="botaoAlerta">Clica aqui</button>
+<script>
+    const titulo =document.getElementById("titulo");
+    titulo.innerText = "Nação Rubro Negra";
+    const subtitulos = document.querySelectorAll(".subtitulo");
+    subtitulos.forEach(element => {
+    element.style.color = "red";
+    });
+   const alerta = () => {
+    alert("O botão foi pressionado!");
+    document.getElementeById("titulo").innerText = "FLA";
+};
+
+const botao = document.getElementById("botaoAlerta");
+botao.onclick = alerta;
+</script>
+
+</html>
