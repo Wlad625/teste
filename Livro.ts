@@ -1,0 +1,25 @@
+class Livro {
+
+    // Cria um objeto livro com os atributos: titulo, autor....
+    constructor(titulo, autor, anoPublicacao, numeroPaginas, qtdEstoque) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.anoPublicacao = anoPublicacao;
+        this.numeroPaginas = numeroPaginas;
+        this.qtdEstoque = qtdEstoque;
+    }
+
+    // Essa função imprime as informações de um Livro
+    imprimirDetalhes() {
+        console.log("---------------------");
+        console.log(`Título: ${this.titulo}`);
+        console.log(`Autor: ${this.autor}`);
+        console.log(`Ano de Publicação: ${this.anoPublicacao}`);
+        console.log(`Número de Páginas: ${this.numeroPaginas}`);
+        console.log(`Quantidade em Estoque: ${this.qtdEstoque}`);
+        console.log("---------------------");
+    }
+
+}
+
+module.exports = Livro;
